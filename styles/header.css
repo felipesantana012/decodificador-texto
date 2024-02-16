@@ -1,0 +1,18 @@
+
+.container__header{
+    background: var(--cor-principal-escuro);
+    padding: 0em 1em 0em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__header-logo{
+    padding: 1em 1em 1em 1em;
+    width: 3em;
+    cursor: pointer;
+}
+
+.container__header-butao{
+    background-color: transparent;
+    border: none;
+}

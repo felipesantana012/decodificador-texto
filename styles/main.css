@@ -1,0 +1,131 @@
+.container__main{
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+
+}
+
+
+.container__main-cripi{
+    background: var(--cor-quarta);
+    width: 50%;
+    border-radius: 1em;
+    flex-direction: column;
+}
+
+.container__main-paragrafo{
+    color: var(--cor-letra-preto);
+    padding: 1em 5em;
+    font-size: 12px;
+    align-items: center;
+    
+}
+
+.container__main-butoes{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.container__main-cripi-textarea::placeholder{
+    font-size: 25px;
+    color: var(--cor-letra-preto);
+}
+
+.container__main-cripi-textarea{
+    border-radius: 1em;
+    resize: none;
+    color: var(--cor-letra-preto);
+    width: 24em;
+    height: 14em;
+    padding: 1em;
+   /* background:var(--cor-terceira);*/
+    font-size: 25px;
+}
+
+.container__main-butoes-btn{
+    border-radius: 1em;
+    padding: 1em 1em 1em 2em;
+    background: var(--cor-terceira);
+    color: var(--cor-letra-braco);
+    align-items: center;
+    width: 20em;
+    text-align: center;
+    margin-bottom: 1em;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.container__main-butoes-btn:hover{
+    background: var(--cor-botao-houver);
+    transform:scale(1.1);
+
+}
+
+
+.container__main-descrip{
+    background: var(--cor-quarta);
+    width: 30%;
+    border-radius: 1em;
+    flex-direction: column;
+}
+
+.container__main-descrip-textarea{
+    border-radius: 1em;
+    resize: none;
+    color: var(--cor-letra-preto);
+    width: 20em;
+    height: 20em;
+    padding: 1em;
+    /*background:var(--cor-terceira);*/
+    font-size: 18px;
+}
+
+.container__main-descrip-textarea::placeholder{
+    color: var(--cor-letra-preto);
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    background: var(--cor-principal-escuro);
+    
+}
+
+.rodape__titulo{
+    align-items: center;
+    padding: 1em;
+}
+
+
+@media screen and (max-width:1159px){
+
+    .container__main-butoes-btn{
+      
+        width: 15em;
+       
+    }
+  
+}
+
+@media screen and (max-width:893px){
+
+    .container__main{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin: 2em;
+        padding-top: 2em;
+    
+    }
+
+    .container__main-butoes-btn{
+        width: 13em; 
+    }
+
+    
+
+
+  
+}

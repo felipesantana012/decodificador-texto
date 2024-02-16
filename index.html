@@ -3,10 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/style.css">
     <title>Decodificador</title>
 </head>
 <body>
-    <h1>Decodificador de Texto</h1>
+
+    <header class="container__header">
+        <a href="/"><img src="/img/diamante.svg" alt="Logo do site" class="container__header-logo"></a>
+        <button class="container__header-butao" id="modoDark"><img src="/img//dark-mode.png" alt="Logo dark" class="container__header-logo"></button>
+    </header>
+
+    <main class="container__main">
+        
+        <section class="container__main-cripi"> 
+        <textarea name="" cols="30" rows="10" placeholder="Digite seu Texto" class="container__main-cripi-textarea" id="entrada"></textarea>
+             <p class="container__main-paragrafo">* Apenas letras menusculas</p>
+            <div class="container__main-butoes">
+            <button class="container__main-butoes-btn" onclick="cripitografia()">Cripitografar</button>
+            <button class="container__main-butoes-btn" onclick="descriptografar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="container__main-descrip">
+            
+        <textarea name="" id="saida" cols="30" rows="10"  placeholder="Nenhum texto encontrado"  class="container__main-descrip-textarea" ></textarea>
+        <p class="container__main-paragrafo"> * Voce pode copiar todo texto</p>
+        <div class="container__main-butoes">
+            <button class="container__main-butoes-btn" onclick="copiarTexto()">Copiar</button>
+        </section>
+    </main>
+
+    <hr />
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Desenvolvido por Felipe Santana</h2>
+    </footer>
     
+    <script src="/js/dark.js"></script>
+    <script src="/js/criptografia.js"></script>
+    <script src="/js/copiar.js"></script>
 </body>
 </html>

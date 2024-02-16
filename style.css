@@ -1,0 +1,47 @@
+@import url("/reset.css");
+@import url("/styles/header.css");
+@import url("/styles/main.css");
+
+
+:root{
+
+    --cor-principal-escuro: #272727;
+    --cor-secundaria-claro: #3f5e44;
+    --cor-terceira: #1fa51f;
+    --cor-quarta: #2727279d;
+    --cor-botao-houver:#27c227;
+
+    --cor-letra-branco:#ffffff;
+    --cor-letra-preto:#ffffff;
+
+    --fonte-principal: "Poppins";
+    --fonte-secundaria:"Josefin Sans";
+
+
+}
+
+.modo-dark{
+   
+    --cor-principal-escuro: #3a5f4b;;
+    --cor-secundaria-claro: #88bea4b7;
+    --cor-terceira: #1fa51f;
+    --cor-quarta: #d7e9ea;
+    --cor-botao-houver:#27c227;
+
+    --cor-letra-branco:#ffffff;
+    --cor-letra-preto:#000000;
+
+    --fonte-principal: "Poppins";
+    --fonte-secundaria:"Josefin Sans";
+
+  
+}
+
+body{
+    background: var(--cor-secundaria-claro);
+    font-family: var(--fonte-principal);
+    color: var(--cor-letra-branco);
+    font-size: 16px;
+    font-weight: 400;
+
+}
