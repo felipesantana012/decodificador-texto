@@ -5,7 +5,7 @@
 
 :root{
 
-    --cor-principal-escuro: #272727;
+    --cor-principal-escuro: #1b2b1d;
     --cor-secundaria-claro: #3f5e44;
     --cor-terceira: #1fa51f;
     --cor-quarta: #2727279d;
@@ -22,6 +22,7 @@
 
 .modo-dark{
    
+    --cor-:#EBECEE;
     --cor-principal-escuro: #3a5f4b;;
     --cor-secundaria-claro: #88bea4b7;
     --cor-terceira: #1fa51f;

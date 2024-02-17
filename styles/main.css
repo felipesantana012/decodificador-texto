@@ -1,7 +1,18 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
 .container__main{
     display: flex;
+    box-sizing: border-box;
     justify-content: space-around;
-    margin: 2em;
+    margin: 1em;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
 
 }
 
@@ -84,6 +95,11 @@
 
 .container__main-descrip-textarea::placeholder{
     color: var(--cor-letra-preto);
+  /*  background-image: url("/img/diamante.svg");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100%;
+*/
 }
 
 .rodape{
@@ -97,6 +113,7 @@
     align-items: center;
     padding: 1em;
 }
+
 
 
 @media screen and (max-width:1159px){
